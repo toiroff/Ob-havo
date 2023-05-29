@@ -1,0 +1,40 @@
+from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
+
+vil= ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="Toshkent")
+        ],
+        [
+            KeyboardButton(text="Farg'ona"),
+            KeyboardButton(text="Samarqand"),
+        ],
+        [
+            KeyboardButton(text="Andijon"),
+            KeyboardButton(text="Buxoro")
+        ],
+        [
+            KeyboardButton(text="Guliston"),
+            KeyboardButton(text="Jizzax"),
+        ],
+        [
+            KeyboardButton(text="Zarafshon"),
+            KeyboardButton(text="Qarshi"),
+        ],
+        [
+            KeyboardButton(text="Navoiy"),
+            KeyboardButton(text="Namangan"),
+        ],
+        [
+            KeyboardButton(text="Nukus"),
+            KeyboardButton(text="Termiz"),
+        ],
+        [
+            KeyboardButton(text="Urganch"),
+            KeyboardButton(text="Xiva")
+        ],
+        [
+            KeyboardButton(text="🔙Orqaga")
+        ]
+    ],resize_keyboard=True
+)
